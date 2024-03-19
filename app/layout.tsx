@@ -3,7 +3,6 @@ import "./globals.css";
 
 import localFont from "next/font/local";
 import ParticleComponent from "@/components/Particles";
-import Particles from "@/components/Particles";
 
 export const metadata: Metadata = {
   title: "@ping",
@@ -53,6 +52,7 @@ export default function RootLayout({
     >
       <body className={`${interRegular.className} bg-ping-blacker`}>
         <ParticleComponent />
+
         {children}
       </body>
     </html>
