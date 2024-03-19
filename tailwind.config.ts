@@ -32,7 +32,7 @@ const config = {
         "ping-brown": "#4E3315",
         "ping-orange": "#E47C52",
         "ping-white": "#E7E8E9",
-        "ping-gray": "#E7E8E9",
+        "ping-gray": "#CFD1D4",
         "ping-gradient-begin": "#E24747",
         "ping-gradient-end": "#E8BD61",
         border: "hsl(var(--border))",
