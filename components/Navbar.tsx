@@ -56,6 +56,7 @@ export default function Navbar() {
                   <button
                     disabled={pathname === "/hack"}
                     onClick={() => router.push("/hack")}
+                    className={`flex-grow text-left`}
                   >
                    hack
                   </button>
@@ -68,6 +69,7 @@ export default function Navbar() {
                   <button
                     disabled={pathname === "/leaderboards"}
                     onClick={() => router.push("/leaderboards")}
+                    className={`flex-grow text-left`}
                   >
                     leaderboards
                   </button>
@@ -80,6 +82,7 @@ export default function Navbar() {
                   <button
                     disabled={pathname === "/profile"}
                     onClick={() => router.push("/profile")}
+                    className={`flex-grow text-left`}
                   >
                     profile
                   </button>
@@ -92,6 +95,7 @@ export default function Navbar() {
                   <button
                     disabled={pathname === "/about"}
                     onClick={() => router.push("/about")}
+                    className={`flex-grow text-left`}
                   >
                     about
                   </button>
